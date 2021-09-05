@@ -42,6 +42,7 @@
                     </thead>
                     <tbody>
                 {% for todo in allTodo %}
+                
               <tr>
                 <th scope="row">{{loop.index}}</th>
                 <td>{{todo.title}}</td>
@@ -53,9 +54,11 @@
                     </td>
                 </tr>
               {% endfor %}
-              {% endif %}
             </tbody>
-          </table>
+            </table>
+              {% endif %}
+            
+          
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
